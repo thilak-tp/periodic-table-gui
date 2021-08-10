@@ -1,10 +1,10 @@
 # GUI Periodic Table Application using Tkinter
 This Applicaion will show the following properties of the Elements of the Periodic Table.
 # 1. Atomic number
-# 2. Atomic mass number
-# 3. Melting point
-# 4. Boiling point
-# 5. Density
-# 6. Electronic configuration
+# 2. Atomic mass
+# 3. Atomic radius
+# 4. Density 
+# 5. Boiling point
+# 6. Melting point
 # 7. Shell configuration
-# 8. Atomic radius
+# 8. Electronic configuration
