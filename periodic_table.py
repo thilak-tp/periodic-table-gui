@@ -1,9 +1,9 @@
             # ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \n Melting point = \n Electronic Configuration ='),
 import tkinter as tk
-from tkinter import font
-from tkinter.constants import GROOVE, RAISED, RIDGE, SUNKEN
-from tkinter.font import BOLD, families
-from PIL import *
+# from tkinter import font
+# from tkinter.constants import GROOVE, RAISED, RIDGE, SUNKEN
+# from tkinter.font import BOLD, families
+# from PIL import *
 # Creates and Initiates class 'App'
 
 
@@ -13,7 +13,7 @@ class App(tk.Frame):
         self.parent = parent
 
         self.winfo_toplevel().title("[ Periodic Table of the Elements ]" )
-        self.topLabel = tk.Label(self, text="Click on the Element for Information about it.", font = 500)
+        self.topLabel = tk.Label(self, text="Click on an element for more info.", font = 500)
         self.topLabel.grid(row=0, column=0, columnspan=18)
 
 
@@ -43,7 +43,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="grey",
+                      bg="firebrick1",
                     #   image='/home/thilaktp/Documents/Programming/Python/gui-perdiodic-table/img/image.jpeg',
                       command=lambda text=b:  self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
@@ -73,7 +73,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light green",
+                      bg="darkorange1",
                       command=lambda text=b:  self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -99,7 +99,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -125,7 +125,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 10: 
@@ -151,7 +151,7 @@ class App(tk.Frame):
             tk.Button(self,
                       text=b[0],
                       width=5, height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 10: 
@@ -176,7 +176,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b:  self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -201,7 +201,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b:  self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -226,7 +226,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -251,7 +251,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -274,7 +274,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -297,7 +297,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b:  self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -320,7 +320,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="goldenrod1",
                       command=lambda text=b:  self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -339,7 +339,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Blue",
+                      bg="deeppink",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -364,7 +364,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Pink",
+                      bg="mediumpurple1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -385,7 +385,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Blue",
+                      bg="deeppink",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -408,7 +408,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Pink",
+                      bg="mediumpurple1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -431,7 +431,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Blue",
+                      bg="deeppink",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -452,7 +452,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Pink",
+                      bg="mediumpurple1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -477,7 +477,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Blue",
+                      bg="deeppink",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -496,7 +496,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Pink",
+                      bg="mediumpurple1",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -523,7 +523,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="Light Blue",
+                      bg="deeppink",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -552,7 +552,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="indian red",
+                      bg="deepskyblue",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
             if r > 7: 
@@ -563,7 +563,7 @@ class App(tk.Frame):
         self.fillerLine.grid(row=10, column=0)
 
         lanthanide = [
-            ('>| H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \n Melting point = \n Electronic Configuration ='),
+            ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \n Melting point = \n Electronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point = \nElectronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point = \nElectronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point = \nElectronic Configuration ='),
@@ -600,7 +600,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="green2",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             c += 1
             if c > 18: 
@@ -608,7 +608,7 @@ class App(tk.Frame):
                 r += 1
 
         actinide = [
-            ('>| H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point = \nElectronic Configuration ='),
+            ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point = \nElectronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point = \nElectronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point = \nElectronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point = \nElectronic Configuration ='),
@@ -645,7 +645,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="light goldenrod",
+                      bg="green3",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             c += 1
             if c > 18: 
@@ -661,7 +661,7 @@ class App(tk.Frame):
                       text=b[0],
                       width=5,
                       height=4,
-                      bg="black",
+                      bg="darkslategrey",
                       fg="white",
                       command=lambda text=b: self.name(text[1]) & self.info(text[2])).grid(row=r, column=c)
             r += 1
