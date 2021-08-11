@@ -21,7 +21,7 @@ class App(tk.Frame):
         column1 = [
             # ('H', 'Hydrogen', 'Atomic # = 1\nAtomic Weight =1.01\nState = Gas\nCategory = Alkali Metals'),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point =\nElectronic Configuration ='),
-            ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point =\nElectronic Configuration ='),
+            ('Li', 'Lithium', 'Atomic No= 11\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point =\nElectronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point =\nElectronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point =\nElectronic Configuration ='),
             ('H', 'Hydrogen', 'Atomic No= 1\nAtomic Mass= 1.008 u\nAtomic Radius= \nState = Gas\nCategory = Alkali Metals\nDensity=\nBoiling Point = \nMelting point =\nElectronic Configuration ='),
@@ -670,7 +670,7 @@ class App(tk.Frame):
                 c += 1
 
         self.infoLine = tk.Label(self, text="", justify='left')
-        self.infoLine.grid(row=1, column=3, columnspan=10, rowspan=4)
+        self.infoLine.grid(row=1, column=1, columnspan=10, rowspan=4)
 
 
 
