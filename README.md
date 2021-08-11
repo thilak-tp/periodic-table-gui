@@ -14,4 +14,4 @@ This Applicaion will show the following properties of the Elements of the Period
 # 7. Boiling point
 # 8. Melting point
 # 9. Electronic configuration
-#10. Year discovered
+# 10. Year discovered
