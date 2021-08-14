@@ -1,4 +1,5 @@
 # GUI Periodic Table Application using Tkinter
+![alt text](https://github.com/thilak-tp/periodic-table-gui/blob/main/screenshots/periodic_table-v1.0.png)
 This is being made as a part of our mini-project at college as part of our syllabus.
 The team consists of 
 - # Akash Bhat
