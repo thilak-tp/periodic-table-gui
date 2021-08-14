@@ -15,3 +15,5 @@ This Applicaion will show the following properties of the Elements of the Period
 # 8. Melting point
 # 9. Electronic configuration
 # 10. Year discovered
+This dist  folder consists of the excutable file.
+v1.0 Finished on 14th August 2021
